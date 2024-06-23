@@ -1,0 +1,64 @@
+.wrapper {
+}
+
+.trafic-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(192, 191, 191);
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 200px;
+    height: 500px;
+}
+
+.block {
+    width: 100%;
+    height: 100%;
+}
+
+.wait {
+    background-color: red;
+}
+
+.ready {
+    background-color: yellow;
+}
+
+.go {
+    background-color: #009b00;
+}
+
+.circle {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.1;
+}
+
+.active {
+    opacity: 1;
+    border: 2px solid white;
+}
+
+
+.cross-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+    
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
